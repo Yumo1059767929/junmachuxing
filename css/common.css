@@ -1,0 +1,654 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    max-width: 640px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.swiper-slide {
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.top {
+    width: 8%;
+    position: absolute;
+    bottom: 4%;
+    left: 47%;
+}
+
+.ab {
+    position: absolute;
+}
+
+
+/*   1  */
+
+.per1 {
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background: url(../images/z-sky.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.z-build {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 54%;
+}
+
+.index_cloud {
+    top: 5%;
+    right: 0;
+    left: 45%;
+    bottom: 86%;
+}
+
+.index_man {
+    left: 70%;
+    right: 26%;
+    top: 69%;
+    bottom: 29%;
+}
+
+.index_truck {
+    left: 27%;
+    right: 23%;
+    top: 50%;
+}
+
+.index_plane {
+    top: 30%;
+    bottom: 65%;
+    right: 75%;
+    left: 0;
+}
+
+.index_logo {
+    top: 2.5%;
+    left: 2.5%;
+    right: 72%;
+}
+
+.index_text {
+    top: 25%;
+    left: 20%;
+    right: 20%;
+}
+
+@media screen and (max-height: 480px) {
+    .index_man {
+        left: 70%;
+        right: 26%;
+        top: 71%;
+    }
+}
+
+
+/*第二页*/
+
+.per2 {
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background: url(../images/z-sky2.png) no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.two_build {
+    left: 0;
+    bottom: 0;
+    top: 46.8%;
+    right: 0;
+}
+
+.two_cloud {
+    top: 1%;
+    right: 0;
+    left: 45%;
+}
+
+.two_man1 {
+    left: 18%;
+    right: 80%;
+    top: 61%;
+}
+
+.two_man {
+    left: 65.5%;
+    right: 32%;
+    top: 60%;
+}
+
+.two_car {
+    left: 48%;
+    right: 46%;
+    top: 59.8%;
+}
+
+.two_bus1 {
+    left: 0;
+    right: 40%;
+    bottom: 10%;
+    top: 70%;
+}
+
+.two_bus2 {
+    right: 0;
+    left: 54%;
+    top: 63%;
+    bottom: 22%;
+}
+
+.two_plane {
+    left: 0;
+    right: 70%;
+    top: 23%;
+    bottom: 67%;
+}
+
+.index_text {
+    top: 25%;
+    left: 20%;
+    right: 20%;
+}
+
+@media screen and (max-height: 480px) {
+    .two_man1 {
+        left: 18%;
+        right: 80%;
+        top: 64%;
+    }
+    .two_man {
+        left: 65.5%;
+        right: 32%;
+        top: 62.5%;
+    }
+    .two_car {
+        left: 48%;
+        right: 46%;
+        top: 63%;
+    }
+}
+
+
+/*   3  */
+
+.per3 {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background: url(../images/z-sky3.png) no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.three_text {
+    left: 30%;
+    right: 30%;
+    top: 8%;
+    bottom: 88%;
+}
+
+.three_city {
+    left: 0;
+    right: 0;
+    top: 25%;
+}
+
+.three_cloud {
+    left: 0;
+    right: 0;
+    top: 14%;
+}
+
+.three_raod {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 40%;
+}
+
+.three_plane {
+    top: 20%;
+    left: 0;
+    right: 80%;
+}
+
+.three_man1 {
+    top: 40%;
+    left: 3%;
+    right: 94%;
+}
+
+.three_man {
+    top: 40%;
+    left: 63%;
+    right: 34%;
+}
+
+.three_man2 {
+    top: 40%;
+    left: 22%;
+    right: 76%;
+}
+
+.three_car {
+    top: 39%;
+    left: 46%;
+    right: 46%;
+}
+
+.three_icon1 {
+    top: 48%;
+    left: 44%;
+    right: 51%;
+}
+
+.three_word1 {
+    top: 48.5%;
+    left: 52%;
+    right: 2%;
+}
+
+.three_icon2 {
+    top: 54%;
+    left: 26%;
+    right: 68.9%;
+}
+
+.three_word2 {
+    top: 54.5%;
+    left: 35%;
+    right: 20%;
+}
+
+.three_icon3 {
+    top: 60%;
+    left: 15%;
+    right: 79.5%;
+}
+
+.three_word3 {
+    top: 60.5%;
+    left: 22%;
+    right: 3.6%;
+}
+
+.three_bus {
+    top: 68.5%;
+    left: 0;
+    right: 39%;
+}
+
+@media screen and (max-height: 480px) {
+    .three_raod {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 44%;
+    }
+    .three_man1 {
+        top: 43%;
+        left: 3%;
+        right: 94%;
+    }
+    .three_man {
+        top: 41%;
+        left: 63%;
+        right: 34%;
+    }
+    .three_man2 {
+        top: 42%;
+        left: 22%;
+        right: 76%;
+    }
+    .three_car {
+        top: 43%;
+        left: 46%;
+        right: 46%;
+    }
+    .three_icon1 {
+        top: 50%;
+        left: 44%;
+        right: 51%;
+    }
+    .three_word1 {
+        top: 50.5%;
+        left: 52%;
+        right: 2%;
+    }
+    .three_icon2 {
+        top: 56%;
+        left: 26%;
+        right: 68.9%;
+    }
+    .three_word2 {
+        top: 56.5%;
+        left: 35%;
+        right: 20%;
+    }
+    .three_icon3 {
+        top: 62%;
+        left: 15%;
+        right: 79.5%;
+    }
+    .three_word3 {
+        top: 62.5%;
+        left: 22%;
+        right: 3.6%;
+    }
+    .three_bus {
+        top: 70.5%;
+        left: 0;
+        right: 39%;
+    }
+}
+
+
+/*   3+  */
+
+.per33 {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    position: relative;
+}
+
+.third_raod {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.third_raod img {
+    width: 100%;
+    height: 100%;
+}
+
+.third_bus {
+    top: 10%;
+    bottom: 65%;
+    left: 0;
+    right: 50%;
+}
+
+.third_icon4 {
+    top: 55%;
+    left: 65%;
+    right: 29%;
+}
+
+.third_word4 {
+    top: 55%;
+    left: 15%;
+    right: 40%;
+}
+
+.third_icon5 {
+    top: 70%;
+    left: 84%;
+    right: 10%;
+}
+
+.third_word5 {
+    top: 70.5%;
+    left: 35%;
+    right: 20%;
+}
+
+.third_icon6 {
+    top: 88%;
+    left: 89%;
+    right: 5%;
+}
+
+.third_word6 {
+    top: 88.5%;
+    left: 48%;
+    right: 16%;
+}
+
+
+/*   4  */
+
+.per4 {
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background: url(../images/z-sky4.png) no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.four_text {
+    left: 73%;
+    right: 5%;
+    top: 5%;
+}
+
+.four_city {
+    left: 3%;
+    top: 15%;
+    right: 37%;
+}
+
+.four_line {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 24%;
+}
+
+.four_icon1 {
+    left: 62%;
+    right: 28%;
+    top: 23%;
+}
+
+.four_msg1 {
+    left: 20%;
+    right: 45%;
+    top: 24.3%;
+}
+
+.four_icon2 {
+    left: 2%;
+    right: 88%;
+    top: 38.5%;
+}
+
+.four_msg2 {
+    left: 15%;
+    right: 12%;
+    top: 38.5%;
+}
+
+.four_icon3 {
+    left: 68%;
+    right: 21%;
+    top: 57%;
+}
+
+.four_msg3 {
+    left: 3%;
+    right: 35%;
+    top: 57.5%;
+}
+
+.four_icon4 {
+    left: 8%;
+    right: 82%;
+    top: 81%;
+}
+
+.four_msg4 {
+    left: 20%;
+    right: 10%;
+    top: 80.5%;
+}
+
+@media screen and (max-height: 480px) {
+    .four_text {
+        left: 73%;
+        right: 5%;
+        top: 3%;
+    }
+    .four_city {
+        left: 3%;
+        top: 5%;
+        right: 37%;
+    }
+    .four_line {
+        left: 0;
+        right: 0;
+        bottom: 0%;
+        top: 15%;
+    }
+    .four_icon1 {
+        left: 61%;
+        right: 29%;
+        top: 15%;
+    }
+    .four_msg1 {
+        left: 20%;
+        right: 45%;
+        top: 17%;
+    }
+    .four_icon2 {
+        left: 2%;
+        right: 88%;
+        top: 36%;
+    }
+    .four_msg2 {
+        left: 15%;
+        right: 12%;
+        top: 36.5%;
+    }
+    .four_icon3 {
+        left: 68%;
+        right: 21%;
+        top: 59%;
+    }
+    .four_msg3 {
+        left: 3%;
+        right: 35%;
+        top: 59.5%;
+    }
+    .four_icon4 {
+        left: 8%;
+        right: 82%;
+        top: 85%;
+    }
+    .four_msg4 {
+        left: 20%;
+        right: 10%;
+        top: 83.5%;
+    }
+}
+
+
+/*   5  */
+
+.per5 {
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    position: relative;
+}
+
+.five_square {
+    width: 50%;
+    top: 35%;
+    left: 25%;
+    right: 25%;
+    bottom: 25%;
+}
+
+.five_city {
+    width: 50%;
+    top: 25.5%;
+    left: 25%;
+    right: 25%;
+}
+
+.five_ewm {
+    width: 45%;
+    top: 35.7%;
+    left: 28%;
+    right: 28%;
+}
+
+@media screen and (max-height: 480px) {
+    .five_city {
+        width: 50%;
+        top: 23%;
+        left: 25%;
+        right: 25%;
+    }
+    .five_ewm {
+        width: 45%;
+        top: 35.9%;
+        left: 28%;
+        right: 28%;
+    }
+}
